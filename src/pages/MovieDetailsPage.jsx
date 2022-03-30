@@ -1,5 +1,14 @@
+import Footer from "../layouts/Footer";
+import Header from "../layouts/Header";
+import Main from "../layouts/Main";
+
 export default function MovieDetailsPage() {
   return (
-    <div>MovieDetailsPage</div>
+    <>
+      <Header />
+      <Main></Main>
+      <Footer />
+    </>
+
   )
 }

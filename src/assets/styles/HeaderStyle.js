@@ -18,4 +18,12 @@ export const UlList = styled.ul`
 
 export const LiItem = styled.li`
     margin: 0 5px;
+
+    a {
+        text-decoration: none;
+    }
+
+    a:link, a:visited, a:hover {
+        color: white;
+    }
 `
