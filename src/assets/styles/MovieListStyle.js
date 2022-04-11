@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 export const MovieListCnt = styled.section`
 display: flex;
@@ -18,4 +19,12 @@ export const LiItem = styled.li`
 margin: 5px;
 border: 2px solid gray;
 padding: 8px;
+`
+
+export const LinkStyled = styled(Link)`
+    text-decoration: none;
+
+    &:visited, &:link {
+        color: black;
+    }
 `
